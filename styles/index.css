@@ -1,0 +1,112 @@
+/* 그냥 해놓는 CSS */
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    height: auto;
+    line-height : normal;
+    padding: .8em .5em;
+    border-radius: 10px;
+    border: 1px solid #999;
+    margin: 5px;
+}
+
+.maininput {
+    width: 50%; 
+}
+
+.box {
+    margin: 20px 0;
+}
+
+.box input {
+    margin: 10px;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+    display: inline-block;
+}
+
+.link {
+    padding: 8px;
+    margin: 11px;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+
+.mintLink {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+label {
+    display: block;
+}
+
+.basicButton {
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sbButton {
+    background: rgb(83, 83, 83);
+    color: white;
+    margin: 10px;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.chButton {
+    background: rgb(19, 141, 240);
+    color: white;
+    padding: 0.7rem 1rem;
+    font-size: 1r
+    em;
+}
+
+.bkButton {
+    background: rgb(201, 238, 253);
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+}
+
+.impress {
+    background: rgb(201, 238, 253);
+    padding: 0.5rem 0.8rem;
+    display: inline;
+}
+
+.mainBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    width: 70%;
+}
+
+.sendbox {
+    width: 80%;
+    display: flex;
+}
+
+img {
+    width: 50%;
+}
+
+.addLine {
+    border-top: 2px solid #ccc;
+}
